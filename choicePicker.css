@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(10, 139, 182);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+h3{
+color: white;
+text-align: center;
+}
+textarea{
+    border: none;
+    display: block;
+    width: 100%;
+    height: 15vh;
+    padding: 5px 10px;
+    margin: 0 0 10px;
+}
+.container{
+    width:500px;
+}
+.tag{
+    background-color: lightcoral;
+    color: white;
+    border-radius: 40px;
+    padding: 7px 10px;
+  display: inline-block;
+  margin: 0 5px 10px 0;
+  font-size: 15px;
+}
+.tag.highlight{
+    background-color: rgb(70, 15, 223);
+}
